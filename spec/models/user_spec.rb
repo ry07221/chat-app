@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe User do
+RSpec.describe User, type: :model do
   describe '#create' do
     before do
       @user = FactoryBot.build(:user)
